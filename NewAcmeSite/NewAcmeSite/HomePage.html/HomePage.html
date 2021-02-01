@@ -6,67 +6,130 @@
     <meta name="keywords" content="HTML, CSS, JAvaScript">
     <meta name="author" content="Marcelo Correia">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body {
-            font-family: sans-serif;
-            margin: 0;
-        }
-
-        .topnav {
-            overflow: hidden;
-            background: #20680e;
-        }
-
-            .topnav a {
-                float:left;
-                color: #f2f2f2;
-                text-align: center;
-                padding: 14px 10px;
-                text-decoration: none;
-                font-size: 15px;
-                margin-left: 70px;
-            }
-
-                .topnav a:hover {
-                    background-color: #1b8713;
-                    color:white;
-                    cursor:pointer;
-                }
-
-                .topnav a.active {
-                    background-color: #ffffff;
-                    color: black;
-                    cursor: pointer;
-                }
-        .topnav-right {
-            float: right;
-        }
-
-    </style>
+    <link rel="stylesheet" href="SiteCSS.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <!-- First section of the page -->
     <div class="topnav">
-            <a href="#home" class="first-of-type">Home</a>
-            <a href="#About">About</a>
-            <a href="#Shop">Shop</a>
-            <a href="#Donate">Donate</a>
-            <a href="#Contact" class="last-of-type">Contact</a>
-            <div class="topnav-right">
-                <img src="photos/primeLogo.png" alt = "PrimeIt Icon" 
-                     style="width:120px; 
-                     height:30px; 
-                     margin-right:10px; 
-                     margin-left:70px; 
-                     margin-top: 6px;">
-            </div>
+        <a href="#home" class="first-of-type">Home</a>
+        <a href="#About">About</a>
+        <a href="#Shop">Shop</a>
+        <a href="#Donate">Donate</a>
+        <a href="#Contact" class="last-of-type">Contact</a>
+        <div class="topnav-right">
+            <img src="photos/just-a-design-geek-icon.png" alt="PrimeIt Icon" class="img1-prime1" />
+        </div>
     </div>
     <div>
-        <img src="photos/Tech1.jpg" alt=" Tech icon 1" style="        
-        width: 100%;
-        height: 500px;
-        margin-top: 0px;
-        margin-right: 700px;">
+        <img src="photos/Tech1.jpg" alt="Tech icon 1" class="img1-firstBanner" />
+        <div class="centered-text">
+            <h1 class="h1-first-section">Serving you.</h1>
+            <p class="p-first-section">
+                Working in developing the best tech for you to use on your daily basis.<br>
+                It's a must for our team to deliver all of the best that we can do, <br>
+                and COVID-19 didn't helped with that.
+            </p>
+            <button type="button" class="button-first-section">Learn more</button>
+        </div>
+
+    </div>
+    <!-- Second section of the page -->
+    <div>
+        <p class="p1-second-section">Ways to support us</p>
+        <p class="p2-second-section">Support us in building a future.</p>
+    </div>
+    <div class="row-second-section">
+        <div class="column-second-section" style="background-color:white">
+            <p class="blocks-second-section">What about now? </p>
+            <div class="dropdown">
+                <img src="photos/MoreInfo.png" alt="More Information" class="moreInfoImg" />
+                <div class="dropdown-content">
+                    <button type="button" class="desc">WE have to be strong</button>
+                </div>
+            </div>
+        </div>
+        <div class="column-second-section" style="background-color:white">
+            <p class="blocks-second-section">About Us </p>
+            <div class="dropdown">
+                <img src="photos/MoreInfo.png" alt="More Information" class="moreInfoImg" />
+                <div class="dropdown-content">
+                    <button type="button" class="desc">WE always do our best</button>
+                </div>
+            </div>
+        </div>
+        <div class="column-second-section" style="background-color:white">
+            <p class="blocks-second-section">News</p>
+            <div class="dropdown">
+                <img src="photos/MoreInfo.png" alt="More Information" class="moreInfoImg" />
+                <div class="dropdown-content">
+                    <button type="button" class="desc">Today the weather is good</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- third section of the page -->
+    <div>
+        <img src="photos/mountains.jpg" alt="Free Mountains" class="img2-SecondBanner" />
+        <div class="p1-third-section">
+            <p>How we're keeping you safe<br> during COVID-19</p>
+        </div>
+        <div class="p2-third-section">
+            <p>
+                As a tech shop, we've taken precautionary and amazing<br>
+                measures to ensure the safety of all our<br>
+                customers and team members.
+            </p>
+            <button type="button" class="button-third-section">Read Our Statement</button>
+        </div>
+        <div class="jesusImg">
+            <img src="photos/jesus.png" alt="Free jesus" />
+        </div>
+    </div>
+
+    <div>
+        <p class="p1-fourth-section">Shop Products</p>
+        <p class="p2-fourth-section">Open 24/7/365 </p>
+    </div>
+    <div class="row">
+        <div class="column" style="background-color:white">
+            <img class="product-images" src="photos/computer.jpg" alt="Canecas to Shop" />
+            <p>Small box that looks like a computer</p>
+            <p class="productPrices">50$ USD</p>
+            <button type="button" class="columnButtons">Details</button>
+        </div>
+
+        <div class="column" style="background-color:white">
+            <img class="product-images" src="photos/images.jpg" alt="Canecas to Shop" />
+            <p>A robot that sometimes cleans the house</p>
+            <p class="productPrices">50$ USD</p>
+            <button type="button" class="columnButtons">Details</button>
+        </div>
+
+        <div class="column" style="background-color:white">
+            <img class="product-images" src="photos/mbp13touch-silver-select-202005.jpg" alt="Canecas to Shop" />
+            <p>Just expensive</p>
+            <p class="productPrices">50$ USD   <del style="color:red"> 100$ USD</del></p>
+            <button type="button" class="columnButtons">Details</button>
+        </div>
+    </div>
+    <button type="button" class="viewAllButton">View all Products</button>
+
+    <div class="last-section-text">
+        We know that during COVID-19, a lot of folks around the city and state are feeling uneasy
+        about the future - we're not sure what the future holds either.
+        <br>
+        That said: we know that we love making sure you have the gear you need for you online adventures, and we're going to keep doing that - with our team - until your family tell us we can't.<br>
+        But as long as folks like yourself support small businesses around the city, then we'll be here, everyday, making sure your orders arrive on time.<br>
+
+        <img src="photos/transferir.png" alt="PrimeIT people" class="last-section-photo" />
+    </div>
+
+    <div class="bottom-bar">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <img src="photos/just-a-design-geek-icon.png" alt="PrimeIt Icon" class="img2-prime2" />
     </div>
 </body>
-</html>
+</html> 

@@ -31,9 +31,23 @@
     <Content Include="HomePage.html\homePage.html">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="HomePage.html\photos\computer.jpg" />
+    <Content Include="HomePage.html\photos\images.jpg" />
+    <Content Include="HomePage.html\photos\jesus.png" />
+    <Content Include="HomePage.html\photos\just-a-design-geek-icon.png" />
+    <Content Include="HomePage.html\photos\mbp13touch-silver-select-202005.jpg" />
+    <Content Include="HomePage.html\photos\MoreInfo.png" />
+    <Content Include="HomePage.html\photos\bags.jpg" />
+    <Content Include="HomePage.html\photos\caneca.jpg" />
+    <Content Include="HomePage.html\photos\mountains.jpg" />
+    <Content Include="HomePage.html\photos\prime.jpg" />
     <Content Include="HomePage.html\photos\primeLogo.png" />
     <Content Include="HomePage.html\photos\Tech1.jpg" />
-    <Content Include="HomePage.html\photos\Tech2.jpg" />
+    <Content Include="HomePage.html\photos\tenda.jpg" />
+    <Content Include="HomePage.html\photos\transferir.png" />
+    <Content Include="HomePage.html\SiteCSS.css">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
